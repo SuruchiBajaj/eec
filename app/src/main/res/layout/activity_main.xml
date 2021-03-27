@@ -30,7 +30,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="sans-serif-black"
-        android:inputType="textPersonName"
         android:text="VERSION'21"
         android:textAlignment="center"
         android:textSize="70sp"
@@ -45,11 +44,10 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="sans-serif-medium"
-        android:inputType="textPersonName"
         android:text="All India MCA Meet"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/title_tv" />
 </androidx.constraintlayout.widget.ConstraintLayout>
